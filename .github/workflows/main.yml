@@ -122,4 +122,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/taski_gateway:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/taski_gateway:latest
